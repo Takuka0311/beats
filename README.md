@@ -1,6 +1,6 @@
 # beats
 
-Forked from https://github.com/elastic/beats
+From https://github.com/elastic/beats
 
 # Why do we need override some source codes?
 
