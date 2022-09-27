@@ -15,6 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
+//go:build windows
 // +build windows
 
 package wineventlog
@@ -28,8 +29,8 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/winlogbeat/sys"
+	"github.com/iLogtail/beats/libbeat/logp"
+	"github.com/iLogtail/beats/winlogbeat/sys"
 )
 
 var (

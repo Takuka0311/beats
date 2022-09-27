@@ -31,8 +31,8 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/elastic/beats/v7/libbeat/common/file"
-	"github.com/elastic/beats/v7/libbeat/paths"
+	"github.com/iLogtail/beats/libbeat/common/file"
+	"github.com/iLogtail/beats/libbeat/paths"
 )
 
 var (

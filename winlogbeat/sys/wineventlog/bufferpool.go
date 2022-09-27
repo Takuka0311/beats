@@ -20,7 +20,7 @@ package wineventlog
 import (
 	"sync"
 
-	"github.com/elastic/beats/v7/winlogbeat/sys"
+	"github.com/iLogtail/beats/winlogbeat/sys"
 )
 
 // bufferPool contains a pool of byteBuffer objects.
