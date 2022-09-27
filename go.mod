@@ -1,3 +1,3 @@
-module github.com/elastic/beats/v7
+module github.com/iLogtail/beats
 
 go 1.13
