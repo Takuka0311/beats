@@ -15,6 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
+//go:build windows
 // +build windows
 
 package wineventlog
@@ -27,7 +28,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sys/windows"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/iLogtail/beats/libbeat/logp"
 )
 
 func TestEventIterator(t *testing.T) {
